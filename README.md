@@ -5,7 +5,9 @@
 
 #### IV. Reference
 [1] Cyll, K., et al., Tumour heterogeneity poses a significant challenge to cancer biomarker research. British journal of cancer, 2017. 117(3): p. 367-375.
+
 [2] Alizadeh, A.A., et al., Toward understanding and exploiting tumor heterogeneity. Nature medicine, 2015. 21(8): p. 846-853.
+
 [3] Shen, R., et al., Integrative Subtype Discovery in Glioblastoma Using iCluster. PLOS ONE, 2012. 7(4): p. e35236.
 
 #### V. Implementation
