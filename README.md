@@ -29,7 +29,7 @@ SubtypeSpecificGene(omics = df, cluster = groups)
 ```
 
 #### IV.Citation 
-Please kindly cite the two repositories if you use the code, datasets or any results in this repo: </br>
+Please kindly cite the following paper if you use the code, datasets or any results in this repo: </br>
 ```sh
 ...
 ```
