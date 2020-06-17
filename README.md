@@ -10,9 +10,9 @@ A previous study defined subtype-specific genes are the ones mutated predominant
 *[3] Shen, R., et al., Integrative Subtype Discovery in Glioblastoma Using iCluster. PLOS ONE, 2012. 7(4): p. e35236.*
 
 #### II. Data Structure
-You must preprare the two kinds of the following data: *df* and *group* (see the 'III.Implementation' section). 
+You must preprare the two kinds of the following data: *df* and *group* (see the 'III.Implementation' section). </br>
 df: . </br> 
-group:  . 
+group:  . </br>
 Please download datasets [Example Data](https://github.com/huynguyen250896/GeneCluster/tree/master/Example%20Data) as examples to well grasp GeneCluster's requirement on data structure. </br>
 
 #### III. Implementation
