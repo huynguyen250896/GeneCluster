@@ -7,7 +7,7 @@
 You must preprare the two kinds of the following data: *df* and *group* (see the 'IV.Implementation' section). 
 df: . </br> 
 group:  . 
-Please download datasets [Example Data](https://github.com/huynguyen250896/GeneCluster/tree/master/Example%20Data) as examples to well grasp GeneSA's requirement on data structure. </br>
+Please download datasets [Example Data](https://github.com/huynguyen250896/GeneCluster/tree/master/Example%20Data) as examples to well grasp GeneCluster's requirement on data structure. </br>
 
 #### III. Reference
 [1] Cyll, K., et al., Tumour heterogeneity poses a significant challenge to cancer biomarker research. British journal of cancer, 2017. 117(3): p. 367-375.
