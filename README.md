@@ -32,7 +32,7 @@ SubtypeSpecificGene(omics = df, cluster = groups)
 #### IV.Citation 
 Please kindly cite the following paper (and Star this Github repository if you find this tool of interest) if you use the tool in this repo: </br>
 ```sh
-**Author:** Nguyen, Quang-Huy
+Author: Nguyen, Quang-Huy
 Nguyen, Hung
 Nguyen, Tin
 Le, Duc-Hau
