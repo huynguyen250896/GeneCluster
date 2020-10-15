@@ -1,6 +1,6 @@
 # GeneCluster v0.1.0
 #### I. Introduction
-The package geneCor is built to serve as a support tool for the paper "*Multi-omics analysis detects novel prognostic subgroups of breast cancer*". </br>
+The package geneCor is built to serve as a support tool for the paper "*[Multi-omics analysis detects novel prognostic subgroups of breast cancer](https://www.frontiersin.org/articles/10.3389/fgene.2020.574661/full?utm_source=F-NTF&utm_medium=EMLX&utm_campaign=PRD_FEOPS_20170000_ARTICLE#F5)*". </br>
 A previous study defined subtype-specific genes are the ones mutated predominantly in the samples assigned to one single subtype than in the other subtypes [1]. Subsequently, those genes are features that reflect the difference between subgroups of heterogeneous cancers [1, 2]. To computationally detect subtype-specific genes, we built the R package GeneCluster from the idea of the reference paper [3]. In brief, given a gene from a list of genes of interest, it will be specifically distributed to either of the identified subgroups based on the mean values (e.g., CNA changes, MET changes, and expression levels). Then, a gene was considered as a subtype-specific one if P-value <= 0.05 (one-way ANOVA test). </br>
 
 *[1] Cyll, K., et al., Tumour heterogeneity poses a significant challenge to cancer biomarker research. British journal of cancer, 2017. 117(3): p. 367-375.*
@@ -32,7 +32,7 @@ SubtypeSpecificGene(omics = df, cluster = groups)
 #### IV.Citation 
 Please kindly cite the following paper and Star (and Fork, if can) this Github repository if you use the tool in this repo: </br>
 ```sh
-...
+Nguyen, Q.-H., et al., Multi-omics analysis detects novel prognostic subgroups of breast cancer. Frontiers in Genetics, 2020.
 ```
 Feel free to contact [Quang-Huy Nguyen](https://github.com/huynguyen250896) <huynguyen96.dnu AT gmail DOT com> for any questions about the code and results.
 
