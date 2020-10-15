@@ -30,9 +30,17 @@ SubtypeSpecificGene(omics = df, cluster = groups)
 ```
 
 #### IV.Citation 
-Please kindly cite the following paper and Star (and Fork, if can) this Github repository if you use the tool in this repo: </br>
+Please kindly cite the following paper (and Star this Github repository if you find this tool of interest) if you use the tool in this repo: </br>
 ```sh
-Nguyen, Q.-H., et al., Multi-omics analysis detects novel prognostic subgroups of breast cancer. Frontiers in Genetics, 2020.
+Author: Nguyen, Quang-Huy
+Nguyen, Hung
+Nguyen, Tin
+Le, Duc-Hau
+Year: 2020
+Title: Multi-omics analysis detects novel prognostic subgroups of breast cancer
+Journal: Frontiers in Genetics
+Type of Article: ORIGINAL RESEARCH
+DOI: 10.3389/fgene.2020.574661
 ```
 Feel free to contact [Quang-Huy Nguyen](https://github.com/huynguyen250896) <huynguyen96.dnu AT gmail DOT com> for any questions about the code and results.
 
