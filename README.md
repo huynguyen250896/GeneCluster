@@ -13,11 +13,16 @@ A previous study defined subtype-specific genes are the ones mutated predominant
 #### II. Data Structure
 ---
 You must preprare the two kinds of the following data: *df* and *group* (see the 'III.Implementation' section). </br>
-df: A data frame whose rows are patients, columns are genes. </br> 
+df: A data frame (e.g., gene expression, methylation,...) whose rows are patients and columns are genes. </br> 
 group:  includes the final result of the clustering process which indicates specifically which patients distributed to which the identified clusters </br>
 Please download datasets [Example Data](https://github.com/huynguyen250896/GeneCluster/tree/master/Example%20Data) as examples to well grasp GeneCluster's requirement on data structure. </br>
 
-#### III. Implementation
+#### III. Pipeline
+---
+![Figure](https://imgur.com/rMuwnLh.png)
+**Figure:** Pipeline of the package GeneCluster.
+
+#### IV. Implementation
 ---
 Use the following command to install directly from GitHub;
 ```sh
@@ -32,7 +37,7 @@ running example:
 SubtypeSpecificGene(omics = df, cluster = groups)
 ```
 
-#### IV.Citation 
+#### V.Citation 
 ---
 Please kindly cite the following paper (and Star this Github repository if you find this tool of interest) if you use the tool in this repo: </br>
 ```sh
