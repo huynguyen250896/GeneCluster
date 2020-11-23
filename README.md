@@ -14,7 +14,7 @@ A previous study defined subtype-specific genes are the ones mutated predominant
 ---
 You must preprare the two kinds of the following data: *df* and *group* (see the 'III.Implementation' section). </br>
 df: A data frame (e.g., gene expression, methylation,...) whose rows are patients and columns are genes. </br> 
-group:  includes the final result of the clustering process which indicates specifically which patients distributed to which the identified clusters </br>
+group: The final result of the clustering process which indicates specifically which patients distributed to which the identified clusters </br>
 Please download datasets [Example Data](https://github.com/huynguyen250896/GeneCluster/tree/master/Example%20Data) as examples to well grasp GeneCluster's requirement on data structure. </br>
 
 #### III. Pipeline
