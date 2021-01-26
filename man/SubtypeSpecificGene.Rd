@@ -2,17 +2,37 @@
 % Please edit documentation in R/hello.R
 \name{SubtypeSpecificGene}
 \alias{SubtypeSpecificGene}
-\title{Tool for Identification of subtype-specific genes}
+\title{GeneCluster: Identification of subtype-specific genes}
 \usage{
-SubtypeSpecificGene(omics = NULL, cluster = NULL)
+SubtypeSpecificGene(omics, cluster, adjustedP = T)
 }
 \arguments{
-\item{omics, cluster}{}
+\item{omics}{data.frame or matrix. \code{omics} includes its rows are samples and its columns are genomic features.}
+  
+\item{cluster}{numeric. Predictive subgroups correspond with samples after running a clustering tool for your own data (e.g., k-means, hclust,...).}
+  
+\item{adjustedP}{logical. Whether we should adjust the gained P-values (one-way ANOVA test) using the Benjamini-Hochberg procedure. 
+Default is \code{adjustedP = T}}
 }
+
 \description{
-Given a gene from a list of genes of interest, it will be specifically distributed to either of the identified subgroups based on its mean values (e.g., CNA changes, MET changes, and expression levels). Then, a gene was considered as a subtype-specific one if P-value <= 0.05 (one-way ANOVA test). For further information on requirements as well as how to implement this tool, please visit my Github repository: https://github.com/huynguyen250896/GeneCluster
+A previous study defined subtype-specific genes are the ones mutated predominantly in the samples assigned to one single subtype than in 
+the other subtypes. Subsequently, those genes are genomic features that reflect the difference between subgroups of heterogeneous cancers. To 
+computationally detect subtype-specific genes, we built the R package GeneCluster from the idea of the reference paper. In brief, given a gene from 
+a list of genes of interest, it will be specifically distributed to either of predictive subgroups based on the mean values (e.g., CNA changes, MET 
+changes, and expression levels). Then, a gene was considered as a subtype-specific one if P-value <= 0.05 (one-way ANOVA test). 
+For further information on requirements as well as how to implement this tool, please visit my Github repository: https://github.com/huynguyen250896/GeneCluster
 }
 \examples{
-SubtypeSpecificGene(omics = df, cluster = groups)
+SubtypeSpecificGene(omics = exp, cluster = groups)
 
+\references{
+Quang-Huy Nguyen, Duc-Hau Le. (2020). 
+Multi-omics analysis detects novel prognostic subgroups of breast cancer.
+Frontiers in Genetics, 11(1265).
+}  
+  
+\author{
+Quang-Huy Nguyen
+}
 }
