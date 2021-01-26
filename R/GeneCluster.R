@@ -10,7 +10,7 @@
 #'
 #' @author Quang-Huy Nguyen
 #'
-#' @usage computeC(omics, cluster, adjustedP = T)
+#' @usage SubtypeSpecificGene(omics, cluster, adjustedP = T)
 #'
 #' @param omics data.frame or matrix. \code{omics} includes its rows are samples and its columns are genomic features.
 #'
