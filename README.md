@@ -39,7 +39,11 @@ running example:
 SubtypeSpecificGene(omics = exp, cluster = groups)
 ```
 
-#### V.Citation 
+#### IV. What's new
+---
+- 2021-01-26 : The function now can adjust gained P-values using the Benjamini-Hochberg procedure.
+
+#### V. Citation 
 ---
 Please kindly cite the following paper (and Star this Github repository if you find this tool of interest) if you use the tool in this repo: </br>
 ```sh
