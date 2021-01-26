@@ -23,8 +23,10 @@ a list of genes of interest, it will be specifically distributed to either of pr
 changes, and expression levels). Then, a gene was considered as a subtype-specific one if P-value <= 0.05 (one-way ANOVA test). 
 For further information on requirements as well as how to implement this tool, please visit my Github repository: https://github.com/huynguyen250896/GeneCluster
 }
+
 \examples{
 SubtypeSpecificGene(omics = exp, cluster = groups)
+}
 
 \references{
 Quang-Huy Nguyen, Duc-Hau Le. (2020). 
@@ -34,5 +36,4 @@ Frontiers in Genetics, 11(1265).
   
 \author{
 Quang-Huy Nguyen
-}
 }
