@@ -58,7 +58,7 @@ SubtypeSpecificGene = function(omics = NULL, cluster = NULL, adjustedP = T){
   data$sub = group$cluster
   
   #implementation
-  Mean <- round(aggregate(as.matrix(data[,-length(data)]) ~ data[,length(data)], FUN = mean),3)
+  Mean <- aggregate(as.matrix(data[,-length(data)]) ~ data[,length(data)], FUN = mean)
   Mean=t(Mean)
   colnames(Mean)<-Mean[1,]
   Mean<-Mean[-1,]
