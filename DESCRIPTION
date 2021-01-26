@@ -1,12 +1,12 @@
 Package: GeneCluster
 Type: Package
-Title: Identification of subtype-specific genes
+Title: GeneCluster: Identification of subtype-specific genes
 Version: 0.1.0
 Author: Quang-Huy Nguyen
 Maintainer: Quang-Huy Nguyen <huynguyen96.dnu@gmail.com>
 Description: Given a gene from a list of genes of interest, 
-    it will be specifically distributed to either of the 
-    identified subgroups based on its mean values (e.g., 
+    it will be specifically distributed to either of 
+    predictive subgroups based on its mean values (e.g., 
     CNA changes, MET changes, and expression levels). 
     Then, a gene was considered as a subtype-specific one 
     if P-value <= 0.05 (one-way ANOVA test). For further 
@@ -15,14 +15,21 @@ Description: Given a gene from a list of genes of interest,
     https://github.com/huynguyen250896/GeneCluster
 License: MIT license
 Depends:
-    R (>= 3.1.0)
-Suggests:
+    R (>= 3.5.0)
+Imports:
     dplyr,
     tidyr,
     tidyverse,
+    purrr,
     maps,
-    purrr
+    stringr
+Remotes: 
+    cran::dplyr,
+    cran::tidyr,
+    cran::tidyverse,
+    cran::purrr,
+    cran::maps,
+    cran::stringr
 Encoding: UTF-8
 LazyData: true
-Imports:
 RoxygenNote: 7.1.0
