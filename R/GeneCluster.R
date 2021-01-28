@@ -41,7 +41,7 @@ SubtypeSpecificGene = function(omics = NULL, cluster = NULL, adjustedP = T){
     stop("Error: predictive subgroups correspond with samples are missing. \n")
   }
   
-  if(!(nrow(omics) != length(cluster))){
+  if(nrow(omics) != length(cluster)){
     stop("Error: Please make sure the samples in omics and clusters are the same and in exactly the same order. \n")
   }
   
