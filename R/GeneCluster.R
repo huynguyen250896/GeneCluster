@@ -149,5 +149,5 @@ SubtypeSpecificGene = function(omics = NULL, cluster = NULL, adjustedP = T){
   print(head(sig2))
   
   #warning
-  print(writeLines("\nNOTE: \n*the results shown above are incomplete.\n*specific_subtype_gene.csv placed in your current working directory.\n*Please check to identify which gene is specifically assigned to which subgroup."))}
+  print(writeLines("\nNOTE: \n*the results shown above are incomplete.\n*subtype_specific_gene.csv placed in your current working directory.\n*Please check to identify which gene is specifically assigned to which subgroup."))}
 }
