@@ -19,6 +19,8 @@ The following are parameters provided by GeneCluster:
 
 - adjustedP: logical. Whether we should adjust the gained P-values (One-way ANOVA test) using the Benjamini-Hochberg procedure. Default is `adjustedP = T`.
 
+Please see [data_n_code](https://github.com/huynguyen250896/GeneCluster/tree/master/data_n_code) to grasp a data format required by GeneCluster and its usage well.
+
 #### III. Pipeline
 ---
 ![Figure](https://imgur.com/rMuwnLh.png)
