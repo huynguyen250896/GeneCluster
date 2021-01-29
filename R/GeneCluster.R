@@ -105,7 +105,7 @@ SubtypeSpecificGene = function(omics = NULL, cluster = NULL, adjustedP = T){
     rownames(sig2) = rownames(sig)
     
     #replace 'X' by 'Subgroup'
-    names(sig2) = gsub("X","Subgroup ", names(sig2))
+    names(sig2) = gsub("X","mean in Subgroup ", names(sig2))
     
     #write the results as the csv file
     write.table(sig2,"specific_subtype_gene.txt",sep = "\t", quote = FALSE)
@@ -146,7 +146,7 @@ SubtypeSpecificGene = function(omics = NULL, cluster = NULL, adjustedP = T){
   rownames(sig2) = rownames(sig)
   
   #replace 'X' by 'Subgroup'
-  names(sig2) = gsub("X","Subgroup ", names(sig2))
+  names(sig2) = gsub("X","mean in Subgroup ", names(sig2))
   
   #write the results as the csv file
   write.table(sig2,"specific_subtype_gene.txt",sep = "\t", quote = FALSE)
