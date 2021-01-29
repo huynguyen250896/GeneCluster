@@ -1,6 +1,6 @@
 DESCRIPTION:
 ---
-Here application examples of geneCor:
+Here application examples of GeneCluster:
 
 The files here contain:
 1. data_expression_miRNA.txt: raw data example presents miRNA data.
