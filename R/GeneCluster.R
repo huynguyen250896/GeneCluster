@@ -108,13 +108,13 @@ SubtypeSpecificGene = function(omics = NULL, cluster = NULL, adjustedP = T){
     names(sig2) = gsub("X","mean in Subgroup ", names(sig2))
     
     #write the results as the csv file
-    write.table(sig2,"specific_subtype_gene.txt",sep = "\t", quote = FALSE)
+    write.table(sig2,"subtype_specific_gene.txt",sep = "\t", quote = FALSE)
     
     #return the results
     print(head(sig2))
 
     #warning
-    print(writeLines("\nNOTE: \n*the results shown above are incomplete.\n*specific_subtype_gene.csv placed in your current working directory.\n*Please check to identify which gene is specifically assigned to which subgroup."))
+    print(writeLines("\nNOTE: \n*the results shown above are incomplete.\n*subtype_specific_gene.csv placed in your current working directory.\n*Please check to identify which gene is specifically assigned to which subgroup."))
   
     
   } else{
@@ -149,7 +149,7 @@ SubtypeSpecificGene = function(omics = NULL, cluster = NULL, adjustedP = T){
   names(sig2) = gsub("X","mean in Subgroup ", names(sig2))
   
   #write the results as the csv file
-  write.table(sig2,"specific_subtype_gene.txt",sep = "\t", quote = FALSE)
+  write.table(sig2,"subtype_specific_gene.txt",sep = "\t", quote = FALSE)
   
   #return the results
   print(head(sig2))
