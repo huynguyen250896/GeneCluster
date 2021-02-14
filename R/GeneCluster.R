@@ -71,7 +71,7 @@ SubtypeSpecificGene = function(omics = NULL, cluster = NULL, adjustedP = T){
   #merge mean and p-value
   mean_overall = data.frame(Mean,Pvalue_out[1])
   
-  if(adjustedP == T | TRUE){
+  if(adjustedP == T | adjustedP == TRUE){
     mean_overall = mean_overall[order(mean_overall$P.Value),] #order rows following p-value
     mean_overall$rank = rank(mean_overall$P.Value)
     mean_overall$Q.value = computeQ(mean_overall)
